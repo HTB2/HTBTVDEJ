@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #121715;
+}
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 10px solid #ffffff;
+}
+.dej-logo img{
+    height: 105px;
+    margin: 20px 0px 20px 0px;
+}
+.horizontal-line{
+    margin: 10px 0px 0px 0px;
+    border-top: 10px solid #ffffff;
+}
+.horizontal-line2{
+    margin: 10px 450px 10px 450px;
+    border-top: 10px solid #fc8722;
+}
+@media only screen and (max-width: 1024px) {
+    .horizontal-line2 {
+    margin: 10px 250px 10px 250px;
+    border-top: 10px solid #fc8722;
+ }
+}
